@@ -1,0 +1,11 @@
+blockquote {
+  display: block;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+cite {
+  display: block;
+  font-style: normal;
+}

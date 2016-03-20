@@ -1,0 +1,19 @@
+dl,
+ol,
+ul {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  padding-left: 1.25rem;
+}
+
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ol ol,
+ol ul,
+ul dl,
+ul ol,
+ul ul {
+  margin-top: .5rem;
+}

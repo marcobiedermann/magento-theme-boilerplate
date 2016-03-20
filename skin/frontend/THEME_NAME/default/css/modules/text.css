@@ -1,0 +1,35 @@
+address,
+dfn,
+em {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+small {
+  font-size: .7em;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
