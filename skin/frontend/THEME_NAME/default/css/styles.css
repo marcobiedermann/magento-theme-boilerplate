@@ -3,7 +3,9 @@
 @import 'layout/base.css';
 @import 'layout/footer.css';
 @import 'layout/header.css';
+@import 'layout/left.css';
 @import 'layout/main.css';
+@import 'layout/right.css';
 @import 'layout/secton.css';
 @import 'layout/sidebar.css';
 
