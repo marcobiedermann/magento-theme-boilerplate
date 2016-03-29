@@ -1,0 +1,15 @@
+:root {
+  --groductListItemBgColor: #fff;
+  --groductListItemPadding: 1rem;
+}
+
+.products-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products-list .item {
+  background-color: var(--groductListItemBgColor);
+  padding: var(--groductListItemPadding);
+}

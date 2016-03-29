@@ -1,0 +1,44 @@
+:root {
+  --productGridGutter: 3%;
+  --groductGridItemBgColor: #fff;
+  --groductGridItemPadding: 1rem;
+}
+
+.products-grid {
+  list-style: none;
+  margin: calc(var(--productGridGutter) / -2);
+  padding: 0;
+}
+
+.products-grid::before,
+.products-grid::after {
+  content: ' ';
+  display: table;
+}
+
+.products-grid::after {
+  clear: both;
+}
+
+.products-grid .item {
+  float: left;
+  background-color: var(--groductGridItemBgColor);
+  margin: calc(var(--productGridGutter) / 2);
+  padding: var(--groductGridItemPadding);
+}
+
+@media (min-width: 30em) {
+
+  .products-grid .item {
+    width: calc(100% / 2 - var(--productGridGutter));
+  }
+
+}
+
+@media (min-width: 40em) {
+
+  .products-grid .item {
+    width: calc(100% / 3 - var(--productGridGutter));
+  }
+
+}
