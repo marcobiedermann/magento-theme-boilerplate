@@ -1,5 +1,10 @@
+:root {
+  --linkColor: #2980b9;
+}
+
 a {
   background-color: transparent;
   border: 0;
+  color: var(--linkColor);
   text-decoration: none;
 }
