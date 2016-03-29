@@ -6,6 +6,7 @@
 @import 'layout/sidebar.css';
 
 @import 'modules/audio.css';
+@import 'modules/breadcrumbs.css';
 @import 'modules/button.css';
 @import 'modules/form.css';
 @import 'modules/image.css';
