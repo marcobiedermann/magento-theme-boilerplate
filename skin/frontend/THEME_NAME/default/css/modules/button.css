@@ -1,3 +1,8 @@
+:root {
+  --buttonBgColor: #2980b9;
+  --buttonColor: #fff;
+}
+
 button {
   background-color: transparent;
   border: 0;
@@ -14,4 +19,10 @@ button {
 button::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+
+.button {
+  background-color: var(--buttonBgColor);
+  color: var(--buttonColor);
+  padding: .25rem 1rem;
 }
