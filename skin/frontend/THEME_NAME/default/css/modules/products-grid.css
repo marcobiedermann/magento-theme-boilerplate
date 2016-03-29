@@ -21,7 +21,6 @@
 }
 
 .products-grid .item {
-  float: left;
   background-color: var(--groductGridItemBgColor);
   margin: calc(var(--productGridGutter) / 2);
   padding: var(--groductGridItemPadding);
@@ -30,6 +29,7 @@
 @media (min-width: 30em) {
 
   .products-grid .item {
+    float: left;
     width: calc(100% / 2 - var(--productGridGutter));
   }
 
