@@ -1,3 +1,14 @@
 main {
   display: block;
 }
+
+.main-container {
+
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  width: 90%;
+}
