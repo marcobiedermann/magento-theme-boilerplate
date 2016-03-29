@@ -1,0 +1,12 @@
+:root {
+  --baseBgColor: #fafafa;
+  --baseColor: #222;
+  --baseFontFamily: Helvetica Neue;
+  --baseFontFamilyFallback: sans-serif;
+  --baseFontSize: 1rem;
+  --baseFontWeight: 400;
+  --baseLineHeight: 1.5;
+
+  --layoutMaxWidth: 72rem;
+  --layoutWidth: 90%;
+}
