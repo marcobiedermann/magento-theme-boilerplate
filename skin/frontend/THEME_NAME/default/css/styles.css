@@ -9,6 +9,7 @@
 @import 'layout/secton.css';
 @import 'layout/sidebar.css';
 
+@import 'modules/anchor.css';
 @import 'modules/audio.css';
 @import 'modules/breadcrumbs.css';
 @import 'modules/button.css';
@@ -17,7 +18,6 @@
 @import 'modules/form-list.css';
 @import 'modules/form-search.css';
 @import 'modules/image.css';
-@import 'modules/link.css';
 @import 'modules/list.css';
 @import 'modules/navigation.css';
 @import 'modules/products.css';
