@@ -1,9 +1,17 @@
+:root {
+  --listMarginBottom: calc(var(--baseLineHeight) * 1rem);
+  --listMarginTop: 0;
+  --listPaddingLeft: 1.25rem;
+
+  --listListMarginTop: .5rem;
+}
+
 dl,
 ol,
 ul {
-  margin-bottom: 1.5rem;
-  margin-top: 0;
-  padding-left: 1.25rem;
+  margin-bottom: var(--listMarginBottom);
+  margin-top: var(--listMarginTop);
+  padding-left: var(--listPaddingLeft);
 }
 
 dl dl,
@@ -15,5 +23,5 @@ ol ul,
 ul dl,
 ul ol,
 ul ul {
-  margin-top: .5rem;
+  margin-top: var(--listListMarginTop);
 }

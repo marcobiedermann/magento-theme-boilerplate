@@ -1,8 +1,13 @@
+:root {
+  --blockquoteMarginBottom: calc(var(--baseLineHeight) * 1rem);
+  --blockquoteMarginTop: 0;
+}
+
 blockquote {
   display: block;
   font-style: italic;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
+  margin-bottom: var(--blockquoteMarginBottom);
+  margin-top: var(--blockquoteMarginTop);
 }
 
 cite {

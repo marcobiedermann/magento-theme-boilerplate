@@ -1,3 +1,10 @@
+:root {
+  --inputPaddingHorizontal: .5rem;
+  --inputPaddingVertical: .25rem;
+
+  --textareaHeight: 6rem;
+}
+
 input,
 select,
 textarea {
@@ -25,12 +32,12 @@ input[type="text"],
 input[type="time"],
 input[type="url"],
 input[type="week"] {
-  padding: .25rem .5rem;
+  padding: var(--inputPaddingVertical) var(--inputPaddingHorizontal);
   width: 100%;
 }
 
 textarea {
-  height: 6rem;
+  height: var(--textareaHeight);
   max-width: 100%;
   overflow: auto;
   resize: none;

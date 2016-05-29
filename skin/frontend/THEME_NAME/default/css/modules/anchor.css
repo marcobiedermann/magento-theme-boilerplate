@@ -1,10 +1,11 @@
 :root {
-  --anchorColor: #2980b9;
+  --anchorColor: var(--colorPrimary);
+  --anchorTextDecoration: none;
 }
 
 a {
   background-color: transparent;
   border: 0;
   color: var(--anchorColor);
-  text-decoration: none;
+  text-decoration: var(--anchorTextDecoration);
 }

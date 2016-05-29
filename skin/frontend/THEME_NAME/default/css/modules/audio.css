@@ -1,6 +1,10 @@
+:root {
+  --audioMarginBottom: calc(var(--baseLineHeight) * 1rem);
+}
+
 audio {
   display: inline-block;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--audioMarginBottom);
   vertical-align: baseline;
 }
 

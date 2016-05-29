@@ -1,5 +1,9 @@
+:root {
+  --videoMarginBottom: calc(var(--baseLineHeight) * 1rem);
+}
+
 video {
   display: inline-block;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--videoMarginBottom);
   vertical-align: baseline;
 }
