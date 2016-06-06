@@ -1,5 +1,9 @@
 :root {
+  --footerBgColor: #222;
+  --footerColor: #fafafa;
+  --footerFontSize: .75rem;
   --footerMaxWidth: var(--layoutMaxWidth);
+  --footerPaddingVertical: 1rem;
   --footerWidth: var(--layoutWidth);
 }
 
@@ -10,7 +14,11 @@ footer {
 }
 
 .footer-container {
-
+  background-color: var(--footerBgColor);
+  color: var(--footerColor);
+  font-size: var(--footerFontSize);
+  padding-bottom: var(--footerPaddingVertical);
+  padding-top: var(--footerPaddingVertical);
 }
 
 .footer {
