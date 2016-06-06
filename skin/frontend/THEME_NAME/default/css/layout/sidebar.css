@@ -1,3 +1,8 @@
 aside {
   display: block;
 }
+
+.sidebar {
+  flex-basis: 25%;
+  flex-shrink: 1;
+}
