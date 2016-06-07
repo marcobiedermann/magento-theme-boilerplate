@@ -12,3 +12,8 @@
 
   --colorPrimary: #2980b9;
 }
+
+@custom-media --media-xs (min-width: 20em);
+@custom-media --media-sm (min-width: 30em);
+@custom-media --media-md (min-width: 40em);
+@custom-media --media-lg (min-width: 60em);
