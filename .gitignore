@@ -1,1 +1,26 @@
 .DS_Store
+
+# Magento Folders
+dev
+downloader
+errors
+includes
+js
+lib
+media
+shell
+var
+
+# Magento Files
+.htaccess.sample
+LICENSE.html
+api.php
+cron.php
+cron.sh
+favicon.ico
+get.php
+index.php
+index.php.sample
+install.php
+mage
+php.ini.sample
